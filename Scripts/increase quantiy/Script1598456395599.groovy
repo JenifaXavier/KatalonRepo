@@ -20,15 +20,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://d2z0ae8zpwnvki.cloudfront.net/#/')
 
-WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/a_Footwear'))
+WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/div_No Results'))
 
-WebUI.click(findTestObject('Page_Retail Demo Store/img_Details_card-img-top'))
+WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/div_Apparel'))
+
+WebUI.doubleClick(findTestObject('Object Repository/Page_Retail Demo Store/div_Apparel'))
+
+WebUI.click(findTestObject('Page_Retail Demo Store/a_Apparel'))
+
+WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/a_Details'))
 
 WebUI.click(findTestObject('Page_Retail Demo Store/button_Add to Cart'))
 
 WebUI.click(findTestObject('Page_Retail Demo Store/button_View Cart'))
 
-WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/i_LED Leather Hi-Tops_fas fa-minus text-black-50'))
+WebUI.doubleClick(findTestObject('Object Repository/Page_Retail Demo Store/i_Blue Wind Breaker Jacket_fas fa-plus text_3c6f59'))
+
+WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/i_Blue Wind Breaker Jacket_fas fa-plus text_3c6f59'))
+
+WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/i_Blue Wind Breaker Jacket_fas fa-plus text_3c6f59'))
+
+WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/i_Blue Wind Breaker Jacket_fas fa-plus text_3c6f59'))
 
 WebUI.closeBrowser()
 

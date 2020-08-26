@@ -6,12 +6,12 @@
    <elementGuidId>ffe474bc-f939-43cf-9276-9e3cf65e2164</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div[2]/div/div[3]/span/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.Button__button___1FrBC</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div[2]/div/div[3]/span/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_Details_card-img-top</name>
+   <name>div_No Results</name>
    <tag></tag>
-   <elementGuidId>54d313fe-e4b0-4bea-a575-d139dd37751c</elementGuidId>
+   <elementGuidId>2a77fc9c-cf54-4530-9f3f-1adb35605203</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.nav</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div[2]/div[2]/div/div/div[2]/div/a/img</value>
+         <value>//div[@id='app']/div/div[3]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,62 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>http://d2z0ae8zpwnvki.cloudfront.net/images/footwear/2.jpg</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>alt</name>
-      <type>Main</type>
-      <value>LED Leather Hi-Tops</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>card-img-top</value>
+      <value>nav</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> No Results </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;content text-center&quot;]/div[@class=&quot;container mt-3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;card-deck col-sm-12 col-md-12 col-lg-12 mt-4&quot;]/div[@class=&quot;col-sm-12 col-md-4 col-lg-4 mb-4&quot;]/div[@class=&quot;card mx-auto h-100 product-card&quot;]/a[1]/img[@class=&quot;card-img-top&quot;]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;navigation&quot;]/div[@class=&quot;search&quot;]/div[@class=&quot;nav&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div[2]/div[2]/div/div/div[2]/div/a/img</value>
+      <value>//div[@id='app']/div/div[3]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//img[@alt='LED Leather Hi-Tops']</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Autothon Retail Demo Store - You Select We Deliver!!'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Free Shipping on All Orders over Rs.10000/-'])[1]/following::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Featured'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/a/img</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
-      <type>Main</type>
-      <value>//img[@alt='Blue Mushroom Wireless Speaker']</value>
+      <value>//div/div/div[3]/div</value>
    </webElementXpaths>
 </WebElementEntity>

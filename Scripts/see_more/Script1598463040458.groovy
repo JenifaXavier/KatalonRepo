@@ -14,21 +14,4 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://d2z0ae8zpwnvki.cloudfront.net/#/')
-
-WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/a_Footwear'))
-
-WebUI.click(findTestObject('Page_Retail Demo Store/img_Details_card-img-top'))
-
-WebUI.click(findTestObject('Page_Retail Demo Store/button_Add to Cart'))
-
-WebUI.click(findTestObject('Page_Retail Demo Store/button_View Cart'))
-
-WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/i_LED Leather Hi-Tops_fas fa-minus text-black-50'))
-
-WebUI.closeBrowser()
 

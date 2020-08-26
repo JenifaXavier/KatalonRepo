@@ -58,11 +58,44 @@ class Shopping {
 		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/button_Continue Shopping'))
 		
 	}
+	
+	/*@Then("enter the wrong (.*)")
+	def increase_price123(String user){
+		WebUI.delay(5)
+	}*/
+	
+	@Then("increase the quantity (.*)")
+	def increase_quantiy(String time) {
+//		println name
+		for(int i =0;i<=6;i++){
+		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/i_Blue Wind Breaker Jacket_fas fa-plus text_3c6f59'))
+		}
+		
+	}
+	
+	@Then("validate if the authentication fails")
+	def auth_fail(){
+		def text  = WebUI.getText(findTestObject('Object Repository/Page_Retail Demo Store/div_User does not exist'))
+		assert text == 'User does not exist.'
+		WebUI.closeBrowser()
+	}
 
 	@Then("add more item")
 	def I_check_for_the_value_in_step() {
 		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/img_Details_card-img-top'))
 	}
+	
+	@Then("assert if the price is above the range to waive shipping")
+	def waiveshipping() {
+//		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/img_Details_card-img-top'))
+	}
+	
+	@Then("assert if the price increases accordingly")
+	def assert_inc() {
+//		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/img_Details_card-img-top'))
+	}
+	
+	
 
 	
 }

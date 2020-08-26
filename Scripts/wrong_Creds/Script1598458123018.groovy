@@ -20,7 +20,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://d2z0ae8zpwnvki.cloudfront.net/#/')
 
-WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/a_Footwear'))
+WebUI.click(findTestObject('Page_Retail Demo Store/a_Footwear'))
 
 WebUI.click(findTestObject('Page_Retail Demo Store/img_Details_card-img-top'))
 
@@ -28,7 +28,21 @@ WebUI.click(findTestObject('Page_Retail Demo Store/button_Add to Cart'))
 
 WebUI.click(findTestObject('Page_Retail Demo Store/button_View Cart'))
 
-WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/i_LED Leather Hi-Tops_fas fa-minus text-black-50'))
+WebUI.click(findTestObject('Page_Retail Demo Store/button_Checkout'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_Retail Demo Store/button_Login to Checkout'))
+
+WebUI.setText(findTestObject('Page_Retail Demo Store/input_Username _Input__input___2Sh1s'), 'JenifaXavier')
+
+WebUI.setEncryptedText(findTestObject('Page_Retail Demo Store/input_Password _Input__input___2Sh1s'), 'X6N8XC2zoORQ4AIN2eiERg==')
+
+WebUI.setText(findTestObject('Page_Retail Demo Store/input_Username _Input__input___2Sh1s'), 'JenifaXavier111223')
+
+WebUI.click(findTestObject('Page_Retail Demo Store/button_Sign In'))
+
+WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/div_User does not exist'))
+
+WebUI.doubleClick(findTestObject('Object Repository/Page_Retail Demo Store/div_User does not exist'))
+
+WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/div_User does not exist'))
 

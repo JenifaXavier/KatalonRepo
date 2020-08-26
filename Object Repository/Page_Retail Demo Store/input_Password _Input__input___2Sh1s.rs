@@ -6,12 +6,12 @@
    <elementGuidId>1ffe96ab-f02e-4414-9fd0-87b163ec0306</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@type='password']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.Form__formField___2DWhT > input.Input__input___2Sh1s</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

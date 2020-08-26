@@ -57,14 +57,25 @@ class checkout {
 
 	@When("click on the (.*) menu")
 	def I_check_for_the_value_in_step(String menu) {
+		if(menu=='footwear'){
+			WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/a_Footwear'))
+		}else{
 		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/a_Featured'))
+		}
 	}
 
 
 	@Then("click on the (.*) icon")
+	
 	def Click_shoe(String item) {
+		println (item)
+		if(item =='shoe'){
+			WebUI.click(findTestObject('Page_Retail Demo Store/img_Details_card-img-top'))
+			println (item)
+		}else{
 
 		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/img_Featured_card-img-top'))
+		}
 	}
 
 	@Then("add the item to the cart")
@@ -181,6 +192,17 @@ class checkout {
 	@Then("enter the credentials")
 	def Enter_user_creds(){
 		WebUI.setText(findTestObject('Object Repository/Page_Retail Demo Store/input_Username _Input__input___2Sh1s'), 'JenifaXavier')
+
+		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Retail Demo Store/input_Password _Input__input___2Sh1s'),
+				'X6N8XC2zoOSOQpzDilKt0A==')
+
+		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/button_Sign In'))
+	}
+	
+	@Then("enter the wrong (.*)")
+	def Enter_user_credswrong11(String user){
+		WebUI.delay(5)
+		WebUI.setText(findTestObject('Object Repository/Page_Retail Demo Store/input_Username _Input__input___2Sh1s'), user)
 
 		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Retail Demo Store/input_Password _Input__input___2Sh1s'),
 				'X6N8XC2zoOSOQpzDilKt0A==')
