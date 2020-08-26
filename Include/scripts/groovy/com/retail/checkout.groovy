@@ -80,9 +80,15 @@ class checkout {
 		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/button_Checkout'))
 	}
 	
-	@Then("select as checkout as guest")
-	def Guest_chekcout() {
+	@Then("select as checkout as (.*)")
+	def Guest_chekcout(String user) {
 		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/button_Checkout as Guest'))
+
+	}
+	
+	@Then("Selects as checkout as (.*)")
+	def Guest_chekcout1(String user) {
+		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/button_Login to Checkout'))
 
 	}
 	
@@ -114,15 +120,74 @@ class checkout {
 		WebUI.setText(findTestObject('Object Repository/Page_Retail Demo Store/input_CVV_cc-cvv'), '555')
 	}
 	
+	@Then("enter the user details for checkout")
+	def user_details() {
+//		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/button_Sign In'))
+//		WebUI.getUrl('http://d2z0ae8zpwnvki.cloudfront.net/#/cart')
+//		WebUI.navigateToUrl('http://d2z0ae8zpwnvki.cloudfront.net/#/cart')
+//		
+//		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/i_Free Shipping on All Orders over Rs10000-_56d4d0'))
+//		
+		WebUI.click(findTestObject('Page_Retail Demo Store/button_Checkout'))
+		
+//		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/label_First name'))
+		
+		WebUI.setText(findTestObject('Page_Retail Demo Store/input_First name_firstName'), 'jenifa')
+		
+		WebUI.setText(findTestObject('Page_Retail Demo Store/input_Last name_lastName'), 'x')
+		
+		WebUI.setText(findTestObject('Page_Retail Demo Store/input_(Optional)_email'), 'jenifa@email.com')
+		
+		WebUI.setText(findTestObject('Page_Retail Demo Store/input_Address_address'), 'test')
+		
+		WebUI.setText(findTestObject('Page_Retail Demo Store/input_(Optional)_address2'), 'test')
+		
+		WebUI.selectOptionByValue(findTestObject('Page_Retail Demo Store/select_ChooseIndia'), 'IN', true)
+		
+		WebUI.selectOptionByValue(findTestObject('Page_Retail Demo Store/select_ChooseKarnatakaMumbaiNew DelhiTamil _e950d4'), 'KA',
+			true)
+		
+		WebUI.setText(findTestObject('Page_Retail Demo Store/input_Zip_zip'), '123456')
+		
+//		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/label_Shipping address is the same as my bi_32762e'))
+		
+//		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/label_Save this information for next time'))
+		
+		WebUI.setText(findTestObject('Page_Retail Demo Store/input_Name on card_cc-name'), 'jenifa')
+		
+		WebUI.setText(findTestObject('Page_Retail Demo Store/input_Credit card number_cc-number'), '123456789123')
+		
+		WebUI.setText(findTestObject('Page_Retail Demo Store/input_Expiration_cc-expiration'), '12/13')
+		
+		WebUI.setText(findTestObject('Page_Retail Demo Store/input_CVV_cc-cvv'), '123')
+	}
+	
+	
 	@Then("confirm order")
-	def I_verify_the_status_in_step(String item) {
-		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/a_Featured'))
-		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/img_Featured_card-img-top'))
+	def I_verify_the_status_in_step() {
+		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/button_Confirm Order'))
+		WebUI.closeBrowser()
 	}
 	
 	@Then("assert if the item name and price are correct")
-	def assertname(String item) {
+	def assertname() {
 		/*WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/a_Featured'))
 		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/img_Featured_card-img-top'))*/
 	}
+	
+	@Then("enter the credentials")
+	def Enter_user_creds(){
+		WebUI.setText(findTestObject('Object Repository/Page_Retail Demo Store/input_Username _Input__input___2Sh1s'), 'JenifaXavier')
+		
+		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Retail Demo Store/input_Password _Input__input___2Sh1s'),
+			'X6N8XC2zoOSOQpzDilKt0A==')
+		
+		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/button_Sign In'))
+		
+	}
+	
+	/*@After
+	def closeBrpwser(){
+		WebUI.closeBrowser()
+	}*/
 }

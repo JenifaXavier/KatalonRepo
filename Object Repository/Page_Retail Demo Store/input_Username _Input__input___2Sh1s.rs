@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_(Optional)_address2</name>
+   <name>input_Username _Input__input___2Sh1s</name>
    <tag></tag>
-   <elementGuidId>a66d43fc-d811-472b-bc4b-6821c74672d4</elementGuidId>
+   <elementGuidId>94e01c46-caff-4019-89de-3d91ee835c89</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='address2']</value>
+         <value>//div[@id='app']/div[2]/div/div[2]/div/div/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#address2</value>
+         <value>input.Input__input___2Sh1s</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,57 +26,50 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>address2</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Apartment or suite</value>
+      <value>Enter your Username</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autofocus</name>
+      <type>Main</type>
+      <value>autofocus</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>username-input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>Input__input___2Sh1s</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;address2&quot;)</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;text-center&quot;]/div[@class=&quot;Form__formSection___3tqxz&quot;]/div[@class=&quot;Section__sectionBody___3DCrX&quot;]/div[@class=&quot;Form__formField___2DWhT&quot;]/div[1]/input[@class=&quot;Input__input___2Sh1s&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='address2']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div[2]/div[3]/div[2]/div[2]/form/div[4]/input</value>
+      <value>//div[@id='app']/div[2]/div/div[2]/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/input</value>
+      <value>//div[2]/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

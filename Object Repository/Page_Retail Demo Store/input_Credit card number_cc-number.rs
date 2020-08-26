@@ -6,12 +6,12 @@
    <elementGuidId>03bed2f5-13ca-4df8-ba3f-e2d1a22d8970</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#cc-number</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='cc-number']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#cc-number</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

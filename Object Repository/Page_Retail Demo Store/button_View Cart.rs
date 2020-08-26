@@ -6,12 +6,12 @@
    <elementGuidId>63695f22-9331-42d9-965f-080a9825aa1d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.swal-button.swal-button--cart</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue Shopping'])[1]/following::button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.swal-button.swal-button--cart</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_(Optional)_address2</name>
+   <name>input_Password _Input__input___2Sh1s</name>
    <tag></tag>
-   <elementGuidId>a66d43fc-d811-472b-bc4b-6821c74672d4</elementGuidId>
+   <elementGuidId>1ffe96ab-f02e-4414-9fd0-87b163ec0306</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='address2']</value>
+         <value>//input[@type='password']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#address2</value>
+         <value>div.Form__formField___2DWhT > input.Input__input___2Sh1s</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,55 +28,55 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>address2</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Apartment or suite</value>
+      <value>Enter your password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>sign-in-password-input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>Input__input___2Sh1s</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;address2&quot;)</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;text-center&quot;]/div[@class=&quot;Form__formSection___3tqxz&quot;]/div[@class=&quot;Section__sectionBody___3DCrX&quot;]/div[@class=&quot;Form__formField___2DWhT&quot;]/input[@class=&quot;Input__input___2Sh1s&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='address2']</value>
+      <value>//input[@type='password']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div[2]/div[3]/div[2]/div[2]/form/div[4]/input</value>
+      <value>//div[@id='app']/div[2]/div/div[2]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/input</value>
+      <value>//div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

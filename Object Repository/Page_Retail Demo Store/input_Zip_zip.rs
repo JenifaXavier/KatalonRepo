@@ -6,12 +6,12 @@
    <elementGuidId>cb84c6fb-fab7-4143-9da8-90c8f7e64e0c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#zip</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='zip']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#zip</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

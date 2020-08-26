@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_(Optional)_address2</name>
+   <name>img_Apparel_card-img-top</name>
    <tag></tag>
-   <elementGuidId>a66d43fc-d811-472b-bc4b-6821c74672d4</elementGuidId>
+   <elementGuidId>2f01c41c-dd26-4680-9afa-e452e19a99d3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='address2']</value>
+         <value>//div[@id='app']/div[2]/div[2]/div/div/div/div/a/img</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#address2</value>
+         <value>img.card-img-top</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,62 +21,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>src</name>
       <type>Main</type>
-      <value>text</value>
+      <value>http://d2z0ae8zpwnvki.cloudfront.net/images/apparel/3.jpg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>alt</name>
       <type>Main</type>
-      <value>address2</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Apartment or suite</value>
+      <value>Accent Scarf</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>card-img-top</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;address2&quot;)</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;content text-center&quot;]/div[@class=&quot;container mt-3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;card-deck col-sm-12 col-md-12 col-lg-12 mt-4&quot;]/div[@class=&quot;col-sm-12 col-md-4 col-lg-4 mb-4&quot;]/div[@class=&quot;card mx-auto h-100 product-card&quot;]/a[1]/img[@class=&quot;card-img-top&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@id='address2']</value>
+      <value>//div[@id='app']/div[2]/div[2]/div/div/div/div/a/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:img</name>
       <type>Main</type>
-      <value>//div[@id='app']/div[2]/div[3]/div[2]/div[2]/form/div[4]/input</value>
+      <value>//img[@alt='Accent Scarf']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/input</value>
+      <value>//img</value>
    </webElementXpaths>
 </WebElementEntity>

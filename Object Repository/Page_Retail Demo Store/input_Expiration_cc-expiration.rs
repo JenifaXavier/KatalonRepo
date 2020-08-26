@@ -6,12 +6,12 @@
    <elementGuidId>899fb68a-81dd-4fca-abfb-e235c9f3b63f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#cc-expiration</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='cc-expiration']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#cc-expiration</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
