@@ -6,12 +6,12 @@
    <elementGuidId>d42ea87c-e756-4df3-b093-6f81cde6ae06</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div[2]/div[2]/div/div/div/div/a/img</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>img.card-img-top</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div[2]/div[2]/div/div/div/div/a/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
