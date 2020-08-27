@@ -123,7 +123,37 @@ Feature: Title of your feature
       | website                               | menu     | user         | item | times |
       | http://d2z0ae8zpwnvki.cloudfront.net/ | footwear | JenifaXavier | shoe |     6 |
       
+  Scenario Outline: To validate the rating functionality
+    Given Login to the <website>
+    When click on the <menu> menu
+    Then click on the <item> icon
+    Then add the item to the cart
+    Then validate the rating feature for <number> stars
+
+    Examples: 
+      | website                               | menu     | user         | item | number |
+      | http://d2z0ae8zpwnvki.cloudfront.net/ | footwear | JenifaXavier | shoe |     3 |
       
+    Scenario Outline: To validate recommendations
+    Given Login to the <website>
+    When click on the <menu> menu
+    Then click on the <item> icon
+    Then validate if the remaining products are shown in recommendations
+    
+    Examples: 
+      | website                               | menu     | user         | item | number |
+      | http://d2z0ae8zpwnvki.cloudfront.net/ | footwear | JenifaXavier | shoe |     3 |
+      
+      
+   Scenario Outline: To validate search functionality
+    Given Login to the <website>
+    When key in a value in the search field
+    Then validate if the appropriate results are returned
+    
+    
+    Examples: 
+      | website                               | menu     | user         | item | number |
+      | http://d2z0ae8zpwnvki.cloudfront.net/ | footwear | JenifaXavier | shoe |     3 |
       
       
       

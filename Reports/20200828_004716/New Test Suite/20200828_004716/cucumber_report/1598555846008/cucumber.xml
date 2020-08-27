@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="33.279244">
+<testcase classname="Titl e of your feature" name="To validate the shipping charges waive off feature" time="33.279244">
+<system-out><![CDATA[Given Login to the http://d2z0ae8zpwnvki.cloudfront.net/....................passed
+When click on the footwear menu.............................................passed
+Then click on the shoe icon.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

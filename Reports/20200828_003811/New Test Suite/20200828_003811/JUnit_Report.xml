@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="79.528" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="79.528" timestamp="2020-08-28 00:38:22" hostname="Admin - 192.168.56.1" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\Jenifa\\Katalon\\ECommerce\\Reports\\20200828_003811\\New Test Suite\\20200828_003811"/>
+         <property name="logFiles" value="H:\\Jenifa\\Katalon\\ECommerce\\Reports\\20200828_003811\\New Test Suite\\20200828_003811\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - 192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 84.0.4147.135"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="98561a897ebe5a38b6f46b5182095e86"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/runner" time="78.699" classname="Test Cases/runner" status="INCOMPLETE">
+         <system-out><![CDATA[2020-08-28 00:38:22 - [TEST_CASE][INCOMPLETE] - Test Cases/runner: null
+
+2020-08-28 00:38:23 - [TEST_STEP][INCOMPLETE] - runFeatureFile("Include/features/Checkout.feature"): null
+
+2020-08-28 00:38:23 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Checkout.feature' and extract report to folder: 'H:\Jenifa\Katalon\ECommerce\Reports\20200828_003811\New Test Suite\20200828_003811/cucumber_report/1598555303480'...
+
+2020-08-28 00:38:25 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO To checkout item as guest user: SCENARIO To checkout item as guest user
+
+2020-08-28 00:38:25 - [TEST_STEP][PASSED] - Login to the http://d2z0ae8zpwnvki.cloudfront.net/: Login to the http://d2z0ae8zpwnvki.cloudfront.net/
+
+2020-08-28 00:38:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 00:38:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 00:38:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 00:39:01 - [MESSAGE][PASSED] - Navigate to 'http://d2z0ae8zpwnvki.cloudfront.net/#/' successfully
+
+2020-08-28 00:39:04 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 00:39:04 - [MESSAGE][PASSED] - Login to the http://d2z0ae8zpwnvki.cloudfront.net/
+
+2020-08-28 00:39:04 - [TEST_STEP][PASSED] - click on the feature menu: click on the feature menu
+
+2020-08-28 00:39:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Retail Demo Store/a_Featured' is clicked on
+
+2020-08-28 00:39:06 - [MESSAGE][PASSED] - click on the feature menu
+
+2020-08-28 00:39:06 - [TEST_STEP][PASSED] - click on the earphones icon: click on the earphones icon
+
+2020-08-28 00:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Retail Demo Store/img_Featured_card-img-top' is clicked on
+
+2020-08-28 00:39:10 - [MESSAGE][PASSED] - click on the earphones icon
+
+2020-08-28 00:39:10 - [TEST_STEP][PASSED] - add the item to the cart: add the item to the cart
+
+2020-08-28 00:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Retail Demo Store/button_Add to Cart' is clicked on
+
+2020-08-28 00:39:12 - [MESSAGE][PASSED] - add the item to the cart
+
+2020-08-28 00:39:12 - [TEST_STEP][PASSED] - view the cart: view the cart
+
+2020-08-28 00:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Retail Demo Store/button_View Cart' is clicked on
+
+2020-08-28 00:39:13 - [MESSAGE][PASSED] - view the cart
+
+2020-08-28 00:39:13 - [TEST_STEP][PASSED] - assert if the item name and price are correct: assert if the item name and price are correct
+
+2020-08-28 00:39:13 - [MESSAGE][PASSED] - assert if the item name and price are correct
+
+2020-08-28 00:39:13 - [TEST_STEP][PASSED] - select to checkout: select to checkout
+
+2020-08-28 00:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Retail Demo Store/button_Checkout' is clicked on
+
+2020-08-28 00:39:14 - [MESSAGE][PASSED] - select to checkout
+
+2020-08-28 00:39:14 - [TEST_STEP][PASSED] - select as checkout as guest: select as checkout as guest
+
+2020-08-28 00:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Retail Demo Store/button_Checkout as Guest' is clicked on
+
+2020-08-28 00:39:16 - [MESSAGE][PASSED] - select as checkout as guest
+
+2020-08-28 00:39:16 - [TEST_STEP][PASSED] - enter the guest details for checkout: enter the guest details for checkout
+
+2020-08-28 00:39:18 - [MESSAGE][PASSED] - Text 'guest' is set on object 'Object Repository/Page_Retail Demo Store/input_First name_firstName'
+
+2020-08-28 00:39:19 - [MESSAGE][PASSED] - Text 'guest' is set on object 'Object Repository/Page_Retail Demo Store/input_Last name_lastName'
+
+2020-08-28 00:39:20 - [MESSAGE][PASSED] - Text 'guest@gmail.com' is set on object 'Object Repository/Page_Retail Demo Store/input_(Optional)_email'
+
+2020-08-28 00:39:21 - [MESSAGE][PASSED] - Text 'guest' is set on object 'Object Repository/Page_Retail Demo Store/input_Address_address'
+
+2020-08-28 00:39:22 - [MESSAGE][PASSED] - Text 'guest' is set on object 'Object Repository/Page_Retail Demo Store/input_(Optional)_address2'
+
+2020-08-28 00:39:24 - [MESSAGE][PASSED] - All options with value 'IN' are selected in object 'Object Repository/Page_Retail Demo Store/select_ChooseIndia'  using regular expression
+
+2020-08-28 00:39:25 - [MESSAGE][PASSED] - All options with value 'KA' are selected in object 'Object Repository/Page_Retail Demo Store/select_ChooseKarnatakaMumbaiNew DelhiTamil _e950d4'  using regular expression
+
+2020-08-28 00:39:26 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Retail Demo Store/input_Zip_zip'
+
+2020-08-28 00:39:27 - [MESSAGE][PASSED] - Text 'guest' is set on object 'Object Repository/Page_Retail Demo Store/input_Name on card_cc-name'
+
+2020-08-28 00:39:28 - [MESSAGE][PASSED] - Text '1111222244445555' is set on object 'Object Repository/Page_Retail Demo Store/input_Credit card number_cc-number'
+
+2020-08-28 00:39:29 - [MESSAGE][PASSED] - Text '01/02' is set on object 'Object Repository/Page_Retail Demo Store/input_Expiration_cc-expiration'
+
+2020-08-28 00:39:30 - [MESSAGE][PASSED] - Text '555' is set on object 'Object Repository/Page_Retail Demo Store/input_CVV_cc-cvv'
+
+2020-08-28 00:39:30 - [MESSAGE][PASSED] - enter the guest details for checkout
+
+2020-08-28 00:39:30 - [TEST_STEP][PASSED] - confirm order: confirm order
+
+2020-08-28 00:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Retail Demo Store/button_Confirm Order' is clicked on
+
+2020-08-28 00:39:41 - [MESSAGE][PASSED] - Browser is closed
+
+2020-08-28 00:39:41 - [MESSAGE][PASSED] - confirm order
+
+2020-08-28 00:39:41 - [TEST_CASE][INCOMPLETE] - Start Test Case : SCENARIO To checkout item as signed in user: null
+
+2020-08-28 00:39:41 - [TEST_STEP][INCOMPLETE] - Login to the http://d2z0ae8zpwnvki.cloudfront.net/: Action delay is set to 0 milliseconds
+
+2020-08-28 00:39:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 00:39:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds]]></system-out>
+         <system-err><![CDATA[2020-08-28 00:38:22 - [TEST_CASE][INCOMPLETE] - Test Cases/runner: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-28 00:38:22 - [TEST_SUITE][INCOMPLETE] - New Test Suite: null]]></system-out>
+      <system-err><![CDATA[2020-08-28 00:38:22 - [TEST_SUITE][INCOMPLETE] - New Test Suite: null]]></system-err>
+   </testsuite>
+</testsuites>

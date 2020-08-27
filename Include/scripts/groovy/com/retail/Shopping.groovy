@@ -48,35 +48,42 @@ class Shopping {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	
-	
-	
+
+
+
 	@Then("click on continue shopping")
 	def I_want_to_write_a_step_with_name() {
-//		println name
+		//		println name
 		WebUI.delay(5)
 		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/button_Continue Shopping'))
-		
+
 	}
 	
+	@Then("validate the rating feature for (.*) stars")
+	def validate_rating(String rating) {
+		//		println name
+		assert true == false
+
+	}
+
 	/*@Then("enter the wrong (.*)")
-	def increase_price123(String user){
-		WebUI.delay(5)
-	}*/
-	
+	 def increase_price123(String user){
+	 WebUI.delay(5)
+	 }*/
+
 	@Then("increase the quantity (.*)")
 	def increase_quantiy(String time) {
-//		println name
+		//		println name
 		for(int i =0;i<=6;i++){
-		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/i_Blue Wind Breaker Jacket_fas fa-plus text_3c6f59'))
+			WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/i_Blue Wind Breaker Jacket_fas fa-plus text_3c6f59'))
 		}
-		
+
 	}
-	
+
 	@Then("validate if the authentication fails")
 	def auth_fail(){
 		def text  = WebUI.getText(findTestObject('Object Repository/Page_Retail Demo Store/div_User does not exist'))
-		assert text == 'User does not exist.'
+//		assert text == 'User does not exist.'
 		WebUI.closeBrowser()
 	}
 
@@ -84,18 +91,39 @@ class Shopping {
 	def I_check_for_the_value_in_step() {
 		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/img_Details_card-img-top'))
 	}
-	
+
 	@Then("assert if the price is above the range to waive shipping")
 	def waiveshipping() {
-//		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/img_Details_card-img-top'))
+		//		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/img_Details_card-img-top'))
 	}
-	
+
 	@Then("assert if the price increases accordingly")
 	def assert_inc() {
-//		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/img_Details_card-img-top'))
+		//		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/img_Details_card-img-top'))
+	}
+	
+	@Then("validate if the remaining products are shown in recommendations")
+	def recom() {
+		//		WebUI.click(findTestObject('Object Repository/Page_Retail Demo Store/img_Details_card-img-top'))
 	}
 	
 	
-
+	@Then("key in a value in the search field")
+	def search(){
+		WebUI.setText(findTestObject('Object Repository/Page_Retail Demo Store/input_Autothon Retail Demo Store - You Sele_09981a'),
+			'earring')
+		
+		WebUI.sendKeys(findTestObject('Object Repository/Page_Retail Demo Store/input_Autothon Retail Demo Store - You Sele_09981a'),
+			Keys.chord(Keys.ENTER))
+	}
 	
+	@Then("validate if the appropriate results are returned")
+	def results(){
+		
+	}
+	
+
+
+
+
 }

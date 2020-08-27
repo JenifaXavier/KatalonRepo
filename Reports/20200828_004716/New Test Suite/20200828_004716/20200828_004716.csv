@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 84.0.4147.135,,,2020-08-28 00:47:25,2020-08-28 00:48:02,37.449s,PASSED
+,,,,,,,
+Test Cases/runner,Chrome 84.0.4147.135,,,2020-08-28 00:47:25,2020-08-28 00:48:02,36.943s,PASSED
+"runFeatureFile(""Include/features/Shopping.feature"")",Chrome 84.0.4147.135,,,2020-08-28 00:47:25,2020-08-28 00:48:02,36.534s,PASSED

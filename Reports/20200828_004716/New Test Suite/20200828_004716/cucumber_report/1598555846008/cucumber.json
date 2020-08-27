@@ -1,0 +1,91 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 24,
+        "name": "To validate the shipping charges waive off feature",
+        "description": "",
+        "id": "titl-e-of-your-feature;to-validate-the-shipping-charges-waive-off-feature;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29339912801,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login to the http://d2z0ae8zpwnvki.cloudfront.net/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://d2z0ae8zpwnvki.cloudfront.net/",
+                  "offset": 13
+                }
+              ],
+              "location": "checkout.I_want_to_write_a_step_with_name(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2520247800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on the footwear menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "footwear",
+                  "offset": 13
+                }
+              ],
+              "location": "checkout.I_check_for_the_value_in_step(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1360536400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on the shoe icon",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shoe",
+                  "offset": 13
+                }
+              ],
+              "location": "checkout.Click_shoe(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Titl e of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "titl-e-of-your-feature",
+    "keyword": "Feature",
+    "uri": "H:/Jenifa/Katalon/ECommerce/Include/features/Shopping.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

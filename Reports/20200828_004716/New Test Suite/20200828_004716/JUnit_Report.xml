@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="41.989" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="41.989" timestamp="2020-08-28 00:47:25" hostname="Admin - 192.168.56.1" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\Jenifa\\Katalon\\ECommerce\\Reports\\20200828_004716\\New Test Suite\\20200828_004716"/>
+         <property name="logFiles" value="H:\\Jenifa\\Katalon\\ECommerce\\Reports\\20200828_004716\\New Test Suite\\20200828_004716\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - 192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 84.0.4147.135"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="b4ceeff594f960c6000850e862ae9927"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/runner" time="36.943" classname="Test Cases/runner" status="PASSED">
+         <system-out><![CDATA[2020-08-28 00:47:25 - [TEST_CASE][PASSED] - Test Cases/runner: Test Cases/runner
+
+2020-08-28 00:47:25 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Shopping.feature"): Feature file: 'Include/features/Shopping.feature' was passed
+
+2020-08-28 00:47:26 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Shopping.feature' and extract report to folder: 'H:\Jenifa\Katalon\ECommerce\Reports\20200828_004716\New Test Suite\20200828_004716/cucumber_report/1598555846008'...
+
+2020-08-28 00:47:27 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO To validate the shipping charges waive off feature: SCENARIO To validate the shipping charges waive off feature
+
+2020-08-28 00:47:27 - [TEST_STEP][PASSED] - Login to the http://d2z0ae8zpwnvki.cloudfront.net/: Login to the http://d2z0ae8zpwnvki.cloudfront.net/
+
+2020-08-28 00:47:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 00:47:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 00:47:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-28 00:47:54 - [MESSAGE][PASSED] - Navigate to 'http://d2z0ae8zpwnvki.cloudfront.net/#/' successfully
+
+2020-08-28 00:47:56 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 00:47:56 - [MESSAGE][PASSED] - Login to the http://d2z0ae8zpwnvki.cloudfront.net/
+
+2020-08-28 00:47:56 - [TEST_STEP][PASSED] - click on the footwear menu: click on the footwear menu
+
+2020-08-28 00:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Retail Demo Store/a_Footwear' is clicked on
+
+2020-08-28 00:47:59 - [MESSAGE][PASSED] - click on the footwear menu
+
+2020-08-28 00:47:59 - [TEST_STEP][PASSED] - click on the shoe icon: click on the shoe icon
+
+2020-08-28 00:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Retail Demo Store/img_Details_card-img-top' is clicked on
+
+2020-08-28 00:48:00 - [MESSAGE][PASSED] - click on the shoe icon
+
+2020-08-28 00:48:02 - [MESSAGE][PASSED] - Feature file: 'Include/features/Shopping.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-28 00:47:25 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/runner]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
